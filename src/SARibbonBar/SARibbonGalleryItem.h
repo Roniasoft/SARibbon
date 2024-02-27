@@ -10,7 +10,7 @@ class SARibbonGalleryGroup;
 ///
 /// \brief 类似QStandardItem的GalleryItem
 ///
-class SA_RIBBON_EXPORT SARibbonGalleryItem
+class SARibbonGalleryItem
 {
 public:
     SARibbonGalleryItem();

@@ -16,7 +16,7 @@ class SARibbonCategoryLayout;
  * @note SARibbonCategory的windowTitle影响了其在SARibbonBar的标签显示，
  * 如果要改标签名字，直接调用SARibbonCategory的setWindowTitle函数
  */
-class SA_RIBBON_EXPORT SARibbonCategory : public QFrame
+class SARibbonCategory : public QFrame
 {
     Q_OBJECT
     SA_RIBBON_DECLARE_PRIVATE(SARibbonCategory)
@@ -138,7 +138,7 @@ protected:
  *
  * 重新定义是为了防止被外部的样式影响,同时可以使用SARibbonCategoryScrollButton的样式定义
  */
-class SA_RIBBON_EXPORT SARibbonCategoryScrollButton : public QToolButton
+class SARibbonCategoryScrollButton : public QToolButton
 {
     Q_OBJECT
 public:

@@ -13,7 +13,7 @@ class QAction;
  * 的 @ref SARibbonElementFactory::createRibbonPannelOptionButton来实现新的OptionButton
  *
  */
-class SA_RIBBON_EXPORT SARibbonPannelOptionButton : public QToolButton
+class SARibbonPannelOptionButton : public QToolButton
 {
     Q_OBJECT
 public:

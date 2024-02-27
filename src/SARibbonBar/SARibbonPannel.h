@@ -18,7 +18,7 @@ class SARibbonBar;
 /**
  * @brief SARibbonPannel的标题label，此类用于qss
  */
-class SA_RIBBON_EXPORT SARibbonPannelLabel : public QLabel
+class SARibbonPannelLabel : public QLabel
 {
     Q_OBJECT
 public:
@@ -37,7 +37,7 @@ public:
  * pannel的布局通过@ref SARibbonPannelLayout 来实现，如果有其他布局，可以通过继承@ref
  * SARibbonElementCreateDelegate::createRibbonPannel 函数返回带有自己布局的pannel，但你必须继承对应的虚函数
  */
-class SA_RIBBON_EXPORT SARibbonPannel : public QFrame
+class SARibbonPannel : public QFrame
 {
     Q_OBJECT
     SA_RIBBON_DECLARE_PRIVATE(SARibbonPannel)

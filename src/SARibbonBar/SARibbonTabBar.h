@@ -7,7 +7,7 @@
 /**
  * @brief The SARibbonTabBar class
  */
-class SA_RIBBON_EXPORT SARibbonTabBar : public QTabBar
+class SARibbonTabBar : public QTabBar
 {
     Q_OBJECT
 public:

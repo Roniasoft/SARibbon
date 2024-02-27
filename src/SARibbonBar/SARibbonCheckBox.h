@@ -6,7 +6,7 @@
 /**
  * @brief The SARibbonCheckBox class
  */
-class SA_RIBBON_EXPORT SARibbonCheckBox : public QCheckBox
+class SARibbonCheckBox : public QCheckBox
 {
     Q_OBJECT
 public:

@@ -9,7 +9,7 @@ class SARibbonButtonGroupWidget;
 ///
 /// \brief ribbon左上顶部的快速响应栏
 ///
-class SA_RIBBON_EXPORT SARibbonQuickAccessBar : public SARibbonCtrlContainer
+class SARibbonQuickAccessBar : public SARibbonCtrlContainer
 {
     Q_OBJECT
     SA_RIBBON_DECLARE_PRIVATE(SARibbonQuickAccessBar)

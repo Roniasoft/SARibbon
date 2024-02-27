@@ -10,7 +10,7 @@
  *
  * @note @sa setIconSize 函数不在起作用，iconsize是根据当前尺寸动态调整的
  */
-class SA_RIBBON_EXPORT SARibbonToolButton : public QToolButton
+class SARibbonToolButton : public QToolButton
 {
     Q_OBJECT
     SA_RIBBON_DECLARE_PRIVATE(SARibbonToolButton)

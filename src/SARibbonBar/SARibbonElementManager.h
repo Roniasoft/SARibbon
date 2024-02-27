@@ -28,7 +28,7 @@
     这样，SARibbon创建的pannel就是你自己重写的MyRibbonPannel
 
  */
-class SA_RIBBON_EXPORT SARibbonElementManager
+class SARibbonElementManager
 {
 protected:
     SARibbonElementManager();

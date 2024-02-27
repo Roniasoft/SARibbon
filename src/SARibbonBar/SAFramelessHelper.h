@@ -6,7 +6,7 @@
 
 class QWidget;
 
-class SA_RIBBON_EXPORT SAFramelessHelper : public QObject
+class SAFramelessHelper : public QObject
 {
     Q_OBJECT
     SA_RIBBON_DECLARE_PRIVATE(SAFramelessHelper)

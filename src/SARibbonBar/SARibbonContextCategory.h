@@ -7,7 +7,7 @@
 /**
  * @brief 管理上下文标签的类
  */
-class SA_RIBBON_EXPORT SARibbonContextCategory : public QObject
+class SARibbonContextCategory : public QObject
 {
     Q_OBJECT
     SA_RIBBON_DECLARE_PRIVATE(SARibbonContextCategory)

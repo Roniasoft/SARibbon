@@ -12,7 +12,7 @@ class QStyleOption;
  * |icon|text|  widget  |
  * ----------------------
  */
-class SA_RIBBON_EXPORT SARibbonCtrlContainer : public QWidget
+class SARibbonCtrlContainer : public QWidget
 {
     Q_OBJECT
     SA_RIBBON_DECLARE_PRIVATE(SARibbonCtrlContainer)

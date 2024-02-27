@@ -9,7 +9,7 @@
 ///
 /// \brief SARibbonGalleryGroup对应的显示代理
 ///
-class SA_RIBBON_EXPORT SARibbonGalleryGroupItemDelegate : public QStyledItemDelegate
+class SARibbonGalleryGroupItemDelegate : public QStyledItemDelegate
 {
 public:
     SARibbonGalleryGroupItemDelegate(SARibbonGalleryGroup* group, QObject* parent = Q_NULLPTR);
@@ -27,7 +27,7 @@ private:
 ///
 /// \brief SARibbonGalleryGroup对应的model
 ///
-class SA_RIBBON_EXPORT SARibbonGalleryGroupModel : public QAbstractListModel
+class SARibbonGalleryGroupModel : public QAbstractListModel
 {
     Q_OBJECT
 public:
@@ -53,7 +53,7 @@ private:
  *
  * 组负责显示管理Gallery Item
  */
-class SA_RIBBON_EXPORT SARibbonGalleryGroup : public QListView
+class SARibbonGalleryGroup : public QListView
 {
     Q_OBJECT
     SA_RIBBON_DECLARE_PRIVATE(SARibbonGalleryGroup)

@@ -29,9 +29,9 @@
 
 #ifndef SA_RIBBON_BAR_NO_EXPORT
 #if defined(SA_RIBBON_BAR_MAKE_LIB)  // 定义此宏将构建library
-#define SA_RIBBON_EXPORT Q_DECL_EXPORT
+#define Q_DECL_EXPORT
 #else
-#define SA_RIBBON_EXPORT Q_DECL_IMPORT
+#define Q_DECL_IMPORT
 #endif
 #endif
 

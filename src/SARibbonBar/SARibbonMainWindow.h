@@ -33,7 +33,7 @@ class QScreen;
  * 通过@ref setRibbonTheme 可改变ribbon的样式，用户也可通过qss自己定义自己的样式
  *
  */
-class SA_RIBBON_EXPORT SARibbonMainWindow : public QMainWindow
+class SARibbonMainWindow : public QMainWindow
 {
     Q_OBJECT
     SA_RIBBON_DECLARE_PRIVATE(SARibbonMainWindow)
@@ -107,6 +107,6 @@ private slots:
  * @param w
  * @param theme
  */
-void SA_RIBBON_EXPORT sa_set_ribbon_theme(QWidget* w, SARibbonMainWindow::RibbonTheme theme);
+void sa_set_ribbon_theme(QWidget* w, SARibbonMainWindow::RibbonTheme theme);
 
 #endif  // SARIBBONMAINWINDOW_H

@@ -7,7 +7,7 @@
 /**
  * @brief The SARibbonLineEdit class
  */
-class SA_RIBBON_EXPORT SARibbonLineEdit : public QLineEdit
+class SARibbonLineEdit : public QLineEdit
 {
     Q_OBJECT
 public:

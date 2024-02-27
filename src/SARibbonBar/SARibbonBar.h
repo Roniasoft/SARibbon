@@ -88,7 +88,7 @@ class SARibbonStackedWidget;
   }
   @endcode
  */
-class SA_RIBBON_EXPORT SARibbonBar : public QMenuBar
+class SARibbonBar : public QMenuBar
 {
     Q_OBJECT
     SA_RIBBON_DECLARE_PRIVATE(SARibbonBar)
@@ -435,7 +435,7 @@ protected:
     virtual void paintWindowTitle(QPainter& painter, const QString& title, const QRect& titleRegion);
     virtual void paintContextCategoryTab(QPainter& painter, const QString& title, const QRect& contextRect, const QColor& color);
 #if SA_DEBUG_PRINT_SARIBBONBAR
-    SA_RIBBON_EXPORT friend QDebug operator<<(QDebug debug, const SARibbonBar& ribbon);
+    friend QDebug operator<<(QDebug debug, const SARibbonBar& ribbon);
 #endif
 };
 Q_DECLARE_OPERATORS_FOR_FLAGS(SARibbonBar::RibbonStyles)

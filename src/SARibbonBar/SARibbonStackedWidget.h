@@ -8,7 +8,7 @@ class QResizeEvent;
 /**
  * @brief 有qdialog功能的stackwidget，用于在最小化时stack能像dialog那样弹出来
  */
-class SA_RIBBON_EXPORT SARibbonStackedWidget : public QStackedWidget
+class SARibbonStackedWidget : public QStackedWidget
 {
     Q_OBJECT
     SA_RIBBON_DECLARE_PRIVATE(SARibbonStackedWidget)
